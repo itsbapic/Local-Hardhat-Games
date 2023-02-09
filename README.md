@@ -49,11 +49,11 @@ We've deployed `Game1`, now its time to win!
 
 ## 4. Win the Game
 
-Use the address you deployed your contract from step 3. Paste it into the `scripts/win.js` file where the comments direct you to. 
+Use the address you deployed your contract from step 3. Paste it into the `scripts/solutions/win.js` file where the comments direct you to. 
 
 You can keep the contract name as `Game1` for now. When you attempt `Game2` later on, you'll need to change this! Hardhat uses this contract name to go fetch the ABI for the contract from the `artifacts` folder.
 
-Now run `npx hardhat run scripts/win.js`, this will go ahead and call `win` on your `Game1` contract. If you're successful you should see a transaction receipt with a `Winner` event inside of the `events` array. 
+Now run `npx hardhat run scripts/solutions/win.js`, this will go ahead and call `win` on your `Game#` contract. If you're successful you should see a transaction receipt with a `Winner` event inside of the `events` array. 
 
 ## 5. Play Game2 through Game5
 
